@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHIFOUMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score">
+        <div>Ordinateur : <span id="ia_score">0</span></div>
+        <div>Mon score : <span id="my_score">0</span></div>
+    </div>
+    <div class="presentation">Faite votre choix entre Pierre (👊) , Papier (✋) et Ciseaux (✌)</div>
+    <!-- Block ou ce deroule le jeu -->
+    <div id="game">
+        <div class="jeu">
+            <div class="ppc" onclick='choice("Pierre")'>👊</div>
+            <div class="ppc" onclick='choice("Papier")'>✋</div>
+            <div class="ppc" onclick='choice("Ciseaux")'>✌</div>
+        </div>
+        <!-- <div class="after_choice">
+            <p id="comment">Match Nul</p>
+            <div class="value_choice">
+                <div>val</div>
+                <div>val</div>
+            </div>
+            <button class="continue">Continuer</button>
+        </div> -->
+    </div>
+    <!-- <div class="decompte">
+        <h3>Temps</h3>
+        <p id="time">Lala</p>
+    </div> -->
+    <!-- <script src="methode.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
